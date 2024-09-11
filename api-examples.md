@@ -27,6 +27,7 @@ const { theme, page, frontmatter } = useData()
 <pre>{{ frontmatter }}</pre>
 ```
 
+
 <script setup>
 import { useData } from 'vitepress'
 
@@ -45,5 +46,11 @@ const { site, theme, page, frontmatter } = useData()
 <pre>{{ frontmatter }}</pre>
 
 ## More
+
+```rust
+pub fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
+```
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
